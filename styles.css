@@ -1,32 +1,65 @@
-header{
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #89CFF0;
+    padding: 10px;
 }
 
-header a{
+header a {
     color: white;
     font-size: large;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     gap: 10px;
+    padding: 0;
+    margin: 0;
 }
 
-h2{
+h2 {
     background-color: #89CFF0;
     font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
     color: azure;
-    }
+    padding: 5px;
+}
 
-section.projects li{
+main {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section {
+    flex: 1 1 50%; /* Each section takes 50% width, wraps as needed */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+section.projects li {
     border-bottom: 2px solid #89CFF0;
     list-style-type: none;
     padding-bottom: 10px;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
 }
