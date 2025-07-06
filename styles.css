@@ -10,3 +10,10 @@ nav ul{
     list-style-type: none;
     gap: 10px;
 }
+
+h2{
+    background-color: #89CFF0;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    color: azure;
+    }
