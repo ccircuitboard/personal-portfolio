@@ -103,3 +103,20 @@ footer {
         min-height: auto;
     }
 }
+
+/* Adding dark mode support */
+:root {
+    --bg-color: white;
+    --text-color: black;
+    --accent-color: #89CFF0;
+    --header-bg: #89CFF0;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #121212;
+        --text-color: #e0e0e0;
+        --accent-color: #89CFF0;
+        --header-bg: #1e1e1e;
+    }
+}
