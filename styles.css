@@ -18,7 +18,7 @@ header {
     padding: 10px;
 }
 
-header a {
+header a, section.articles a {
     color: white;
     font-size: large;
 }
