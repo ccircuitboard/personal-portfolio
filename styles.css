@@ -63,3 +63,17 @@ footer {
     padding: 10px;
     background-color: #eee;
 }
+
+/* CSS for mobile support */
+/* On screens equal to or below 768px, sections stack vertically and allow for better mobile readability */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    main section {
+        flex: 1 1 100%;
+        min-height: auto;
+    }
+}
