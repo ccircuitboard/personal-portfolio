@@ -23,6 +23,15 @@ header a, section.articles a {
     font-size: large;
 }
 
+.logo {
+    color: azure;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -32,7 +41,7 @@ nav ul {
     margin: 0;
 }
 
-h2 {
+h1, h2 {
     background-color: #89CFF0;
     font-weight: bolder;
     color: azure;
@@ -57,6 +66,23 @@ section.projects li {
     padding-bottom: 10px;
     text-align: center;
 }
+
+.contact {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    background-color: #89CFF0;
+    color: azure;
+  }
 
 footer {
     text-align: center;
