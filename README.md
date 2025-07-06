@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # Personal Portfolio
-Styling the basic HTML website for a roadmap.sh frontend project that depicts a personal portfolio. (https://roadmap.sh/projects/basic-html-website)
+Styling the basic HTML website for a roadmap.sh frontend project that depicts a personal portfolio. (https://roadmap.sh/projects/portfolio-website)
 
 ## Objectives
 - [x] A fully styled, responsive website with the same structure as the previous project.
